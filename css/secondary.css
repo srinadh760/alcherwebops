@@ -1,4 +1,6 @@
-
+body{
+font-family:   "Segoe UI",  "Helvetica Neue", sans-serif;
+}
 /*header for index page*/
 .header{
   display:flex;
