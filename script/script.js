@@ -83,8 +83,8 @@ if (moviearray.length > 0 && document.querySelector('.intro')) {
 
             <div class="secondary-preview-details"><h1>${movie.original_title}</h1>
 <h2>${new Date(movie.release_date).getFullYear()}  ${movie.original_language}    </h2>
-<h2><img class="imdb" src="imdb.png"> ${movie.vote_average} <img src="bar-icon.png" class="imdb"> ${movie.popularity}</h2>
- <img src="upload.jpg" class="upload"> 
+<h2><img class="imdb" src="imdb.png"> ${movie.vote_average} <img src="bar-icon.png" class="imdb"> ${movie.popularity} <img src="upload.jpg" class="upload"></h2>
+  
 <p class="overview">${movie.overview}</p>
 
           
