@@ -65,6 +65,7 @@ if (moviearray.length > 0 && document.querySelector('.intro')) {
           casthtml += `<div class="cast">
             <img class="actor-pic" src="${actor.profile_path}" alt="${actor.name}">
             <h2>${actor.name}</h2>
+             <h2 class="actor-character">${actor.character}</h2>
             </div>`
           })
          let preview = document.querySelector('.preview');
@@ -82,7 +83,8 @@ if (moviearray.length > 0 && document.querySelector('.intro')) {
 
             <div class="secondary-preview-details"><h1>${movie.original_title}</h1>
 <h2>${new Date(movie.release_date).getFullYear()}  ${movie.original_language}    </h2>
-<h2><img class="imdb" src="imdb.png"> ${movie.vote_average} <img src="imdb.png" class="imdb"> ${movie.popularity}</h2>
+<h2><img class="imdb" src="imdb.png"> ${movie.vote_average} <img src="bar-icon.png" class="imdb"> ${movie.popularity}</h2>
+<h2><button>&#9658; watch free</button>  <img src="bookmak.jpg" class="bookmarkicon">  <button>&#10004; </button> <img src="upload.jpg" class="upload">   </h2>
 <p class="overview">${movie.overview}</p>
 
           
