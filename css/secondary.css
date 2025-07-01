@@ -300,7 +300,7 @@ border-radius:10px;
   z-index:2;
   
 }
-.imdb{
+.imdb,.upload{
   width:20px;
   height:auto;
 }
