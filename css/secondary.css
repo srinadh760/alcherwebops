@@ -1,0 +1,310 @@
+
+/*header for index page*/
+.header{
+  display:flex;
+  justify-content: space-evenly;
+  background-color:black;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius:10px 10px 0 0;;
+  height:30px;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  margin-bottom: 0;
+}
+.icon{
+object-fit:cover;
+align-items:center;
+border-radius:22px;  
+position:absolute;
+top:2px;
+left:7px;
+height:45px;
+width:75px;
+}
+.searchBox{
+  border:none;
+  background-color:black;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.searchBar{
+background:transparent;
+border: none;
+;
+
+}
+.searchButton{
+  background-color: rgb(152, 146, 146);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.homeicon{
+  height:25px;
+  filter:invert(100%);
+}
+.home{
+  display:flex;
+  align-items: center;
+justify-content: center;
+  size:10px;
+  background-color:black;
+  border-radius: 5px;
+  padding:4px 5px;
+}
+.homeword{
+  font-size:20px;
+  margin-left:5px;
+  color:white;
+}
+.livetv{
+  display:flex;
+  align-items: center;
+  background-color:black;
+  border-radius: 5px;
+}
+  .livetvicon{
+    height:25px;
+    filter:invert(100%);
+    
+  }
+  .livetvword{
+    font-size:20px;
+    margin-left:5px;
+    color:white;
+  }
+  .ondemand{
+    display:flex;
+    align-items: center;
+    background-color:black;
+    border-radius: 5px;
+  }
+  .ondemandicon{
+    height:25px;
+    
+  }
+  .ondemandword{
+    font-size:20px;
+    margin-left:5px;
+    color:white;
+  }
+  .discover{
+    display:flex;
+    align-items: center;
+    background-color:black;
+    border-radius: 5px;
+  }
+  .discovericon{
+    height:25px;
+    filter:invert(100%);
+  }
+  .discoverword{
+    font-size:20px;
+    margin-left:5px;
+    color:white;
+  }
+  .playicon{
+    height:30px;
+    filter:invert(100%);
+  }
+  .bookmarkicon{
+    height:30px;
+    filter:invert(100%);
+  }
+  .bookmark{
+    display:flex;
+    align-items: center;
+    background-color:black;
+    border-radius: 5px;
+  }
+  .signin{
+    background-color:black;
+    color:white;
+    border-radius:30%;
+    border:none;
+  }
+  /*mainbody*/
+  .intro{
+    width:100%;
+    height:90vh;
+
+    background-size:cover;
+    background-position:center;
+    margin-top:0;
+    position:relative;
+  }
+  .heading1{
+    position:absolute;
+    top:40%;
+    left:7%;
+    
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Arial', sans-serif;
+    text-align:center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
+    .heading2{
+       position:absolute;
+    top:45%;
+    left:7%;
+
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Arial', sans-serif;
+    text-align:center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .subheading1{
+      position:absolute;
+    top:53%;
+    left:7%;
+    
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    font-family: 'Arial', sans-serif;
+    text-align:center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .subheading2{
+      position:absolute;
+    top:56%;
+    left:7%;
+ 
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    font-family: 'Arial', sans-serif;
+    text-align:center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    }
+    .officialsignup{
+      position:absolute;
+    top:60%;
+    left:7%;
+      margin-top: 20px;
+      padding:10px 30px;
+      border-radius:23px;
+      border:none;
+      background-color:rgba(240, 168, 12, 0.792);
+      font-size:15px;
+    font-weight:bold;
+  }
+  /*movies*/
+  .moviecontainer{
+  
+  display:flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  margin:0 0px;
+  padding:80px 20px 20px 20px;
+  background-color:rgb(35, 35, 35);
+}
+.movie{
+  flex-shrink: 0;
+  
+margin-bottom:5px;
+display:inline-block;
+height:auto;
+width:250px;
+}
+.suggestedword{
+  font-weight: bold;
+  font-size: 30px;
+  padding-right: 10px;
+  
+  margin-left: 20px;
+  
+}
+.suggested{
+  position:absolute;
+  top:100%;
+  color:white;
+
+}
+.index-movie-title{
+  text-align:start;
+  
+  color:white;
+  margin:10px -2.5px;
+  border:none;
+}
+.posters{
+width:100%;
+height:auto;
+border-radius:10px;
+
+}
+.movie-year{
+  text-align: start;
+  margin-left: -2.5px;
+  color:rgb(118, 118, 118);
+  font-size: 17px;
+  border:none;
+}
+/*secondary page*/
+.preview{
+  width:100%;
+  height:100vh;
+  color:white;
+}
+.actor-pic{
+  width:150px;
+  height:150px;
+  border-radius:10px;
+ 
+  object-position: center;
+  border-radius:75px;
+}
+.secondary-poster{
+  width:300px;
+  height:300px;
+  border-radius:10px;
+  object-fit:cover;
+  object-position: center; 
+  margin-right:20px;
+  margin-top:20px;
+  
+  
+}
+.cast{
+  height:auto;
+}
+.secondary-preview{
+  margin:0px 0px 80px 60px; 
+  display:flex;
+}
+.secondary-cast{
+  display:flex;
+  gap:20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  height:400px;
+  color:white;
+  
+}
+.secondary-preview-details{
+  margin-top:20px;
+  color:rgb(253, 253, 253);
+  z-index:2;
+  
+}
+.imdb{
+  width:20px;
+  height:auto;
+}
+.overview{
+  font-size:20px;
+  font-style: normal;
+  font-family:"Segoe UI",  "Helvetica Neue", sans-serif;
+  z-index:2;
+}
